@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>SISTEMA DE Nacionalidade</h1>
+        Em qual Pais voce nasceu?<input type="text" id="pais">
+        <input type="button" value="Verificar" onclick="nac()">
+        <div id = "res">
+
+        </div>
+        <script>
+            function nac(){
+                var pais= window.document.querySelector(`input#pais`).value;
+                var res = window.document.querySelector(`div#res`);
+                res.innerHTML = `<p>Vivendo em <strong>${pais}</strong></p>`;
+
+                if (pais === 'Brasil'){
+                    res.innerHTML += `Voce é Brasileiro`;
+                }else{
+                    res.innerHTML += `Voce é Estrangeiro`;
+                }
+                
+
+            }
+        </script>
+
+    
+</body>
+</html>
