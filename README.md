@@ -1,4 +1,6 @@
-Curso de JavaScript \n
+Curso de JavaScript
+
+
 Projetos e Exercícios
 Este repositório contém uma série de exercícios práticos desenvolvidos durante meu curso de JavaScript. O objetivo desses exercícios foi aplicar conceitos fundamentais de programação e desenvolvimento web utilizando JavaScript, HTML e CSS.
 O que foi aprendido:
